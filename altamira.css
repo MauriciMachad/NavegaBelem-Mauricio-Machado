@@ -1,0 +1,108 @@
+body {
+    font-family: "Oswald";
+    margin: 0;
+    padding: 0;
+    background-color: #e7d9b4;
+}
+
+header {
+   justify-content: left;
+    display: flex;
+}
+
+.logo a {
+    text-decoration: none;
+}
+
+.logo h1 {
+    color: white;
+    font-size: 30px;
+    display: flex;
+    margin-left: 585px;
+}
+
+.logo span {
+    color: red;
+}
+
+.logo {
+    padding: 8px;
+    position: fixed;
+    background-color: #092b5a;
+    width: 5000px;
+    display: flex;
+    
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.section1 {
+    display: flex;
+    margin-top: 50px;
+    background-image: url(./imagens/altamira-pa.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 400px;
+
+}
+
+.section2 {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 100px;
+    margin-bottom: 20px;
+    margin-top: -5px;
+    font-size: 25px;
+}
+
+.section2 h1 {
+    font-size: 35px;
+}
+
+.section3 {
+    font-size: 20px;
+}
+
+
+
+.mapa {
+    list-style-image: url(./imagens/png/pngegg\ \(1\).png);
+    margin-left: 25px;
+}
+
+.turismo {
+    list-style-image: url(./imagens/png/praia.png);
+    margin-left: 25px;
+}
+
+.porto {
+    list-style-image: url(./imagens/png/porto.png);
+    margin-left: 25px;
+}
+
+.data {
+    list-style-image: url(./imagens/png/data.png);
+    margin-left: 25px;
+}
+
+.hora {
+    list-style-image: url(./imagens/png/relogio.png);
+    margin-left: 25px;
+}
+
+
+.voltar h2 {
+    color: white;
+    border: 3px solid white;
+    border-radius: 15px;
+    position: fixed;
+    display: flex;
+    padding: 8px;
+    background-color: #260faa;
+    margin-left: 5px;
+    
+}
+

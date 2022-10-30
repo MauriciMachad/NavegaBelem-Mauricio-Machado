@@ -1,0 +1,483 @@
+body {
+    font-family: "Oswald";
+    margin: 0;
+    padding: 0;
+    background-color: #e7d9b4;
+}
+
+header {
+    justify-content: center;
+    display: flex;
+}
+
+
+
+.logo h1 {
+    color: white;
+    font-size: 30px;
+}
+
+.logo span {
+    color: red;
+}
+
+.logo {
+    padding: 8px;
+   
+    background-color: #092b5a;
+    width: 5000px;
+    display: flex;
+    justify-content: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.section1 {
+    display: flex;
+   
+    background-image: url(./imagens/belc3a9m-orla-geral.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 400px;
+}
+
+.section1_title {
+    margin-left: 30px;
+    font-size: 30px;
+}
+
+.section1_title h4 {
+    font-size: 25px;
+}
+
+.section1_title h1 {
+    font-size: 70px;
+    line-height: 50px;
+    margin-top: -12px;
+}
+
+.section1_title a {
+    display: inline-block;
+    background-color: #11d800;
+    padding: 15px 60px;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.section1_image img {
+    width: 380px;
+    height: auto;
+    margin-top: 20px;
+    margin-left: 55px;
+   
+}
+
+.section2 {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    margin-top: -5px;
+    font-size: 25px;
+}
+
+.section2 h1 {
+    font-size: 35px;
+}
+
+.section2 p {
+    font-size: 23px;
+}
+
+.section2 h2 {
+    text-transform: uppercase;
+    font-size: 22px;
+}
+
+.section2 a {
+    background-color: #d3c3c3;
+    font-size: 25px;
+    padding-right: 50px;
+    padding-left: 50px;
+    cursor: pointer;
+    border-radius: 5px;
+    margin-top: 10px;
+    text-align: center;
+    
+}
+
+.section2 a:hover {
+    background-color: #e3f3e148;
+    transition: 00.3s all;
+}
+
+.section2_cards {
+    display: flex;
+    flex-direction: row;
+}
+
+.section2 strong {
+    color: rgb(247, 244, 244);
+    text-shadow: 2px 2px 5px black;
+}
+
+.section2_cards a{
+    text-decoration: none;
+    color: white;
+    text-shadow: 2px 2px 5px black;
+    margin-top: 40px;
+    border: 5px solid white;
+    background-color: rgba(255, 255, 255, 0);
+    border-radius: 20px;
+    
+}
+
+.card1 {
+    margin-top: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #d3c3c3;
+    width: 240px;
+    height: 215px;
+    border-radius: 5px;
+    background-image: url(./imagens/praia-da-ponta-de-pedras.jpg);
+    background-size: cover;
+    overflow: hidden;
+    
+    
+}
+.card1:hover {
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+      
+  }
+
+.card2 {
+    margin-top: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #d3c3c3;
+    width: 240px;
+    height: 215px;
+    margin-left: 25px;
+    border-radius: 5px;
+    background-image: url(./imagens/muana.jpg);
+    background-size: cover;
+}
+.card2:hover {
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+      
+  }
+
+.card3 {
+    margin-top: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #d3c3c3;
+    width: 240px;
+    height: 215px;
+    margin-left: 25px;
+    border-radius: 5px;
+    background-image: url(./imagens/boavista.jpg);
+    background-size: cover;
+
+}
+.card3:hover {
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+      
+  }
+
+.card4 {
+    margin-top: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #d3c3c3;
+    width: 240px;
+    height: 215px;
+    margin-left: 25px;
+    border-radius: 5px;
+    background-image: url(./imagens/curralinho.jpg);
+    background-size: cover;
+}
+.card4:hover {
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+      
+  }
+
+.card5 {
+    margin-top: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #d3c3c3;
+    width: 240px;
+    height: 215px;
+    margin-left: 25px;
+    border-radius: 5px;
+    background-image: url(./imagens/Breves.jpg);
+    background-size: cover;
+
+}
+.card5:hover {
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+      
+  }
+
+.card6 {
+    margin-top: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #d3c3c3;
+    width: 240px;
+    height: 215px;
+    margin-left: 25px;
+    border-radius: 5px;
+    background-image: url(./imagens/melgaço.jpg);
+    background-size: cover;
+}
+.card6:hover {
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+      
+  }
+
+.card7 {
+    margin-top: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #d3c3c3;
+    width: 240px;
+    height: 215px;
+    margin-left: 25px;
+    border-radius: 5px;
+    background-image: url(./imagens/portel.jpg);
+    background-size: cover;
+
+}
+.card7:hover {
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+      
+  }
+
+.card8 {
+    margin-top: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #d3c3c3;
+    width: 240px;
+    height: 215px;
+    margin-left: 25px;
+    border-radius: 5px;
+    background-image: url(./imagens/ANAJAS.jpg);
+    background-size: cover;
+}
+.card8:hover {
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+      
+  }
+
+.card9 {
+    margin-top: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #d3c3c3;
+    width: 240px;
+    height: 215px;
+    margin-left: 25px;
+    border-radius: 5px;
+    background-image: url(./imagens/barcarena-pa.jpg);
+    background-size: cover;
+
+
+}
+.card9:hover {
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+      
+  }
+
+.card10 {
+    margin-top: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #d3c3c3;
+    width: 240px;
+    height: 215px;
+    margin-left: 25px;
+    border-radius: 5px;
+    background-image: url(./imagens/gurupa.jpg);
+    background-size: cover;
+}
+.card10:hover {
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+      
+  }
+
+.card11 {
+    margin-top: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #d3c3c3;
+    width: 240px;
+    height: 215px;
+    margin-left: 25px;
+    border-radius: 5px;
+    background-image: url(./imagens/portodemoz.jpeg);
+    background-size: cover;
+}
+.card11:hover {
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+      
+  }
+
+.card12 {
+    margin-top: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #d3c3c3;
+    width: 240px;
+    height: 215px;
+    margin-left: 25px;
+    border-radius: 5px;
+    background-image: url(./imagens/senadorjoseportifero.jpg);
+    background-size: cover;
+}
+.card12:hover {
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+      
+  }
+
+.card13 {
+    margin-top: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #d3c3c3;
+    width: 240px;
+    height: 215px;
+    margin-left: 25px;
+    border-radius: 5px;
+    background-image: url(./imagens/vitoriadoxingu.jpg);
+    background-size: cover;
+}
+.card13:hover {
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+      
+  }
+
+.card14 {
+    margin-top: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #d3c3c3;
+    width: 240px;
+    height: 215px;
+    margin-left: 25px;
+    border-radius: 5px;
+    background-image: url(./imagens/altamira.jpg);
+    background-size: cover;
+}
+.card14:hover {
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+      
+  }
+
+.card15 {
+    margin-top: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #d3c3c3;
+    width: 240px;
+    height: 215px;
+    margin-left: 25px;
+    border-radius: 5px;
+    background-image: url(./imagens/uruara.jpg);
+    background-size: cover;
+}
+.card15:hover {
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+      
+  }
+
+.card16 {
+    margin-top: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #d3c3c3;
+    width: 240px;
+    height: 215px;
+    margin-left: 25px;
+    border-radius: 5px;
+    background-image: url(./imagens/medicilandia.jpg);
+    background-size: cover;
+}
+.card16:hover {
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+      
+  }
+.card17 {
+    margin-top: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #d3c3c3;
+    width: 240px;
+    height: 215px;
+    margin-left: 25px;
+    border-radius: 5px;
+    background-image: url(./imagens/brasilnovo.jpg);
+    background-size: cover;
+}
+.card17:hover {
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+      
+  }
+
